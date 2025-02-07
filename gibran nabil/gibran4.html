@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Riwayat Hidup</h1>
+    <form>
+        <label>Nama :</label>
+        <input type="text" name="nama" minlength="3" required placeholder="nama lengkap"><br>
+        <label>umur :</label>
+        <input type="number" name="umur" maxlength="2" required placeholder="umur"><br>
+        <label>Password</label>
+        <input type="password" name="password" required placeholder="password"><br>
+        <h2>hoby :</h2>
+        <input type="checkbox"> renang
+        <input type="checkbox"> basket
+        <input type="checkbox"> voli
+        <br>
+        <h2>jenis kelamin :</h2>
+        <input type="radio" name="jenis kelamin">laki-laki
+        <input type="radio" name="jenis kelamin">perempuan
+        <br>
+        <h2>Kelas</h2>
+        <select name="kelas">
+            <option >pilih</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select> <br><br><br>
+        <input type="submit" name="submit" value="submit">
+        <input type="reset" name="reset" value="reset">
+    </form>
+</body>
+</html>
